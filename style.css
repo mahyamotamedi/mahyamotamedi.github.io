@@ -1,0 +1,135 @@
+html {
+  height: 100%;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  overflow: hidden;
+}
+
+.model {
+  position: absolute;
+  top: 15vmin;
+  width: 90%;
+  left: 0;
+  right: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.model h1 {
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-weight: 500;
+  font-size: 6vmin;
+  letter-spacing: 0.1em;
+  background: -webkit-linear-gradient(white, #38495a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.model p {
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+  font-size: 2.5vmin;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+p a {
+  color: rgba(255, 255, 255, 0.582);
+  text-decoration: none;
+}
+
+p a:hover {
+  color: #557799;
+  transition-duration: 300ms;
+  text-decoration: none;
+}
+
+.profile {
+  width: 30vmin;
+  height: 30vmin;
+  border: 2px solid;
+  border-color: #fff;
+  border-radius: 50%;
+  margin: 4px;
+  opacity: 1 !important;
+}
+
+.icon {
+  width: 4vmin;
+  height: 4vmin;
+}
+
+.contact-btn {
+  color: white;
+  text-decoration: none;
+  margin: 2px;
+  padding: 9px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.contact-btn:hover {
+  color: #557799;
+  transition-duration: 300ms;
+}
+
+.button-row {
+  margin-top: 2em;
+}
+
+.color-btn {
+  /* position: absolute; */
+  right: 0px;
+  top: 0px;
+  margin: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+}
+
+#stars {
+  width: 1px;
+  height: 1px;
+  background: transparent;
+}
+
+#stars:after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 1px;
+  height: 1px;
+  background: transparent;
+}
+
+#stars2 {
+  width: 1px;
+  height: 1px;
+  background: transparent;
+}
+
+#stars2:after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 1px;
+  height: 1px;
+  background: transparent;
+}
+
+.cv-btn {
+  color: #fff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #fff;
+  transition: all .3s;
+}
+.cv-btn:hover {
+  color: #fff;
+  background-color: rgba(85, 95, 123, 1);
+  border-color: rgba(124, 120, 120, 0.9);
+}
